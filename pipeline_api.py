@@ -50,7 +50,7 @@ param_dic = {
     "host"      : "localhost",
     "database"  : "postgres",
     "user"      : "postgres",
-    "password"  : "Teerapong29"
+    "password"  : ""
 }
 connect = "postgresql+psycopg2://%s:%s@%s:5432/%s" % (
     param_dic['user'],
